@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/ac5bf9eb63.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Word</title>
+</head>
+
+<body>
+  <div class="main">
+    <textarea name="" id="textarea"></textarea>
+  </div>
+
+  <div class="bt-menu">
+
+    <div class="controls">
+      <ul>
+        <li><input id="input-font" type="number" min="12" max="50" value="12"></li>
+        <li id="btn-font" class="bold btn-font" style="font-family: cambria;">F<select id="fonts">
+          <option value="arial">Arial</option>
+          <option value="verdana">Verdana</option>
+          <option value="helvetica">Helvetica</option>
+          <option value="tahoma">Tahoma</option>
+          <option value="trebuchet ms">Trebuchet MS</option>
+          <option value="times new roman">Times New Roman</option>
+          <option value="georgia">Georgia</option>
+          <option value="garamond">Garamond</option>
+          <option value="courier new">Courier New</option>
+          <option value="brush script mt">Brush Script MT</option>
+        </select></li>
+        <li id="btn-uppercase"><i class="fas fa-font"></i></li>
+        <li class="text-align"><i class="fas fa-align-justify"></i><ul><li id="text-left"><i class="fas fa-align-left"></i></li><li id="text-right"><i class="fas fa-align-right"></i></li><li id="text-center"><i class="fas fa-align-center"></i></li><li id="text-justify"><i class="fas fa-align-justify"></i></li></ul></li>
+        <li id="btn-underline"><i class="fas fa-underline"></i></li>
+        <li id="btn-italic"><i class="fas fa-italic"></i></li>
+        <li id="btn-bold"><i class="fas fa-bold"></i></li>
+      </ul>
+    </div>
+
+    
+    <div class="counter">
+      <ul>
+        <li id="words">Words &nbsp;|&nbsp; 0</li>
+        <li id="sentences">Sentences &nbsp;|&nbsp; 0</li>
+        <li id="paragraphs">Paragraphs &nbsp;|&nbsp; 0</li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
