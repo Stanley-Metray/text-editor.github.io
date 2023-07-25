@@ -1,5 +1,3 @@
-console.clear();
-
 const textArea = document.getElementById('textarea');
 const words = document.getElementById('words');
 const sentences = document.getElementById('sentences');
